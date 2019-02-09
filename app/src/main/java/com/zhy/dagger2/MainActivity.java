@@ -38,5 +38,9 @@ public class MainActivity extends AppCompatActivity {
         startActivity(new Intent(this, ThirdActivity.class));
     }
 
+    public void multiBinds(View view) {
+        startActivity(new Intent(this, FourthActivity.class));
+    }
+
 
 }

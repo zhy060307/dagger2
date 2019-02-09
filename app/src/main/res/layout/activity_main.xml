@@ -33,6 +33,15 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btn_test_scope" />
 
+    <Button
+        android:id="@+id/btn_multi_bindings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="multiBinds"
+        android:text="multibinds"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_bind_instance" />
+
     <TextView
         android:id="@+id/tv_welcome"
         android:layout_width="wrap_content"
