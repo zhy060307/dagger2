@@ -9,15 +9,32 @@
 
 
     <Button
-        android:id="@+id/btn_login"
+        android:id="@+id/btn_set_multi_bindings"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="setBindings"
-        android:text="Set multibindings
-"
+        android:text="Set multibindings"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <Button
+        android:id="@+id/btn_map_multi_bindings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="mapBindings"
+        android:text="Map multibindings"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_set_multi_bindings" />
+
+
+    <Button
+        android:id="@+id/btn_subComponents_bindings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="subComponentsBindings"
+        android:text="SubComponent multibindings"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_map_multi_bindings" />
 
     <TextView
         android:id="@+id/tv_msg"
